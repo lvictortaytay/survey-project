@@ -1,0 +1,23 @@
+.prompts{
+    margin-top: 10rem;
+}
+
+.button{
+    border-radius: 12px;
+    border: white solid 1px;
+}
+.button:hover{
+    transition: .2s;
+    border-radius: 12px;
+    border: #0d6efd solid 1px;
+    color: #0d6efd;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    position:absolute;
+    bottom: 20px;
+    left:35rem;
+    border-radius: 12px;
+ 
+}

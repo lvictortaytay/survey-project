@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<section class = "prompts text-center">
+    <h1 class = "text-primary">{{survey.title}}</h1>
+<p class  ="text-secondary">{{survey.instructions}}</p>
+</section>
+
+
+<form action = "/start" method="POST" class = "text-center">
+    <button class = "button">begin survey!</button>
+</form>
+{% endblock %}
